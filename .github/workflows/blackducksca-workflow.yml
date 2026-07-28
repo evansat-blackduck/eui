@@ -42,4 +42,4 @@ jobs:
           blackducksca_fixpr_enabled: false
           ### SCAN CONFIGURATION: Uncomment below to enable
           blackducksca_waitForScan: true # Wait for scan completion before proceeding
-          detect_args: --detect.blackduck.signature.scanner.snippet.matching=SNIPPET_MATCHING --detect.blackduck.signature.scanner.upload.source.mode=true
+          detect_args: --detect.blackduck.signature.scanner.snippet.matching=SNIPPET_MATCHING --detect.timeout=900 --detect.blackduck.signature.scanner.upload.source.mode=true
